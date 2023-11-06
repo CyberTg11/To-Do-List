@@ -86,38 +86,7 @@ function List() {
         });
         
     }          
-// metn.addEventListener('click', function(event)
-// {
-//     if(event.key === 'Enter')
-//     List();
-// })
 
-
-             // else if (list.firstChild) {
-//             const yeniLi = document.createElement('li');
-//             calculate++;
-//             list.insertBefore(yeniLi, dobavit);
-//             yeniLi.textContent = metn.value;
-//             metn.value = '';
-//             const yeniResim = document.createElement('img');
-//             yeniResim.src = './img/Group 77.svg'
-//             const newResim = document.createElement('img')
-//             newResim.src = './img/Group 70.svg'
-//             newResim.style.display = 'none'
-//             yeniLi.appendChild(yeniResim);
-//             yeniLi.appendChild(newResim);
-//             yeniResim.addEventListener('mouseover', function() {
-//                 newResim.style.display = 'inline';
-//                 yeniResim.style.display = 'none'
-//             });
-//             newResim.addEventListener('mouseout', function() {
-//                 newResim.style.display = 'none';
-//                 yeniResim.style.display = 'inline'
-//             });
-//             newResim.addEventListener('click', function() {
-//                 list.removeChild(yeniLi);
-//             });
-// }
 }
        
 
@@ -139,7 +108,6 @@ function Sorting(){
 
 }
 document.getElementById('duz2').addEventListener('click', function() {
-    // tersSiralama();
     ters1.style.display = 'block'
     ters2.style.display = 'none'
     duz1.style.display = 'none'
@@ -151,13 +119,7 @@ document.getElementById('duz2').addEventListener('click', function() {
     Sorting();
 });
 
-// function tersSiralama() {
-//     const listElemenleri = Array.from(list.children);
-//     listElemenleri.reverse();
-//     listElemenleri.forEach(element => list.appendChild(element));
-// }
 document.getElementById('ters2').addEventListener('click', function() {
-    // tersSiralama();
     duz1.style.display = 'block'
     duz2.style.display = 'none'
     ters2.style.display = 'none'
@@ -168,19 +130,6 @@ document.getElementById('ters2').addEventListener('click', function() {
     Sorting();
 
 });
-// function tersSiralama() {
-//     const listElemenleri = Array.from(list.children);
-//     for (let i = listElemenleri.length - 1; i >= 0; i--) {
-//         list.appendChild(listElemenleri[i]);
-//     }
-// }
-
-
-// function tersSiralama() {
-//     const listElemenleri = Array.from(list.children);
-//     listElemenleri.reverse();
-//     listElemenleri.forEach(element => list.appendChild(element));
-// }
 ters1.addEventListener('mouseover', function() {
     ters2.style.display = 'block';
     duz1.style.display = 'none';
